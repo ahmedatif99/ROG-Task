@@ -1,0 +1,20 @@
+.title {
+  line-height: 44px;
+  letter-spacing: 1px;
+  color: #214842;
+}
+
+.cart-badge {
+  background-color: #a2aa7b;
+  color: white;
+}
+
+#sortbox:checked ~ #sortboxmenu,
+#langbox:checked ~ #langboxmenu {
+  opacity: 1;
+}
+
+.nav-link-button li:nth-child(5),
+.nav-link-button li:nth-child(4) {
+  border-left: 2px solid black;
+}
